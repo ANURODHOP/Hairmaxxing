@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1000400594570",
+    "project_id": "hair-maxxing-d7b54",
+    "storage_bucket": "hair-maxxing-d7b54.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000400594570:android:fbc7704ab78a7f6877ef73",
+        "android_client_info": {
+          "package_name": "com.anurodh.hairmaxing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000400594570-lsdefmt7o7ojn04q8o0eqlgdm2h5nvvt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anurodh.hairmaxing",
+            "certificate_hash": "89e874296ce9bb31fb1283c50e164eaaf2f4c35f"
+          }
+        },
+        {
+          "client_id": "1000400594570-p4fen6m80e75i5unq51kvdkj8upab5o0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_wDSoSc_niTfAQnNITizhOokbMFOJnQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000400594570-p4fen6m80e75i5unq51kvdkj8upab5o0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

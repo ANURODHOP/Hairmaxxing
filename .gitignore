@@ -1,43 +1,53 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+# Environment variables — NEVER commit real secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
 
-# dependencies
+# Dependencies
 node_modules/
+**/node_modules/
 
-# Expo
+# Expo / React Native
 .expo/
 dist/
 web-build/
 expo-env.d.ts
-
-# Native
 .kotlin/
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
+
+# Native build folders (generated, do not commit)
+/myApp/ios/
+/myApp/android/
+/myApp/app-example/
 
 # Metro
 .metro-health-check*
 
-# debug
+# Logs
+*.log
 npm-debug.*
 yarn-debug.*
 yarn-error.*
 
-# macOS
+# Editor
 .DS_Store
-*.pem
+Thumbs.db
+.idea/
+.vscode/
 
-# local env files
-.env*.local
-
-# typescript
+# TypeScript
 *.tsbuildinfo
+*.orig.*
 
-app-example
+# Keys / Certs (extra safety net)
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+service-account*.json
+*-service-account.json
 
-# generated native folders
-/ios
-/android
+# Installers / Binaries
+*.exe
