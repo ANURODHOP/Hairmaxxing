@@ -2,7 +2,6 @@
 
 **HairMaxxing** is an AI-powered mobile application built with **React Native and Expo** that allows users to capture hair photos, analyze their hair condition using AI, track their progress, and explore personalized hair-care insights.
 
-This project was originally designed with production services in mind and has been converted into a **fully runnable project/demo** with a local backend and simulated payments, making it easier to develop, test, and showcase without requiring paid infrastructure.
 
 ---
 
